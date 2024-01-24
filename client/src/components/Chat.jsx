@@ -76,7 +76,8 @@ const Chat = () => {
 			setChat([])
 			SetMessage('')
 		}catch(err){
-			
+			console.error(`logging error in Chat.js component ${err}`)
+
 		}
 		
 	}
@@ -103,7 +104,7 @@ const Chat = () => {
 				},
 			];
 			setChat(chatCopy)
-			
+			console.error(`logging error Chat.js component ${err}`)
 		}
 	};
 

@@ -21,7 +21,7 @@ export const SideBar = () => {
 		}
 	  }, [chats, filterValue]);
 
-	console.log('chatList: ', chats);
+	
 	const handleRatingSelect = (event) => {
 		setFilterValue(event.target.value);
 		if(filterValue){
